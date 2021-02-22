@@ -17,6 +17,8 @@ body {
     padding-top: 0;
     width: 90%;
     min-width: 540px;
+    animation: fade-in 1s ease-out 1s;
+    animation-fill-mode: backwards;
 }
 
 #header-wrap header {
@@ -36,6 +38,8 @@ body {
     display: block;
     width: 104px;
     margin: 0 auto;
+    animation: fade-in 1s ease-out 1.5s;
+    animation-fill-mode: backwards;
 }
 
 #header-details {
@@ -68,6 +72,8 @@ body {
 #estd {
     text-align: center;
     font-weight: 600;
+    animation: fade-in 1s ease-out 1.75s;
+    animation-fill-mode: backwards;
 }
 
 #stripes {
@@ -85,7 +91,6 @@ body {
     margin-top: -20px;
     margin-right: 200px;
     transform: rotate(41deg);
-
 }
 
 .three-line-divider {
@@ -110,6 +115,8 @@ body {
     display: block;
     width: 60%;
     margin: 0 auto;
+    animation: fade-in 1s ease-out 1.75s;
+    animation-fill-mode: backwards;
 }
 
 #header-details-btm {
@@ -133,6 +140,8 @@ body {
     right: -2px;
     transform: rotate(-90deg);
     color: rgb(223, 209, 175);
+    animation: fade-in 1s ease-out 1.5s;
+    animation-fill-mode: backwards;
 }
 
 #ectp span {
@@ -148,6 +157,8 @@ body {
     text-align: center;
     text-transform: uppercase;
     font-weight: 300;
+    animation: fade-in 1s ease-out 2.5s;
+    animation-fill-mode: backwards;
 }
 
 @media screen and (max-width: 930px) {
@@ -176,5 +187,14 @@ body {
     #slogan {
         letter-spacing: 4px;
         font-size: 17px;
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }
