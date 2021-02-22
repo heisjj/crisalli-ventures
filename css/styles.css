@@ -1,0 +1,180 @@
+body {
+    background-color: rgb(237, 228, 211);
+    color: rgb(87, 82, 79);
+    margin: 0;
+    padding: 0;
+    font-family: myriad-pro,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#header-wrap {
+    border: 1px solid rgb(87, 82, 79);
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    margin: 0 auto;
+    padding: 2px;
+    padding-top: 0;
+    width: 90%;
+    min-width: 540px;
+}
+
+#header-wrap header {
+    border: 3px solid rgb(87, 82, 79);
+    border-top: 0;
+    border-radius: 0 0 10px 10px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 154px auto;
+}
+
+#header-wrap header #logo {
+    padding: 20px 18px;
+}
+
+#header-wrap header #logo img {
+    display: block;
+    width: 104px;
+    margin: 0 auto;
+}
+
+#header-details {
+    border-left: 1px solid rgb(87, 82, 79);
+}
+
+#header-details-top {
+    height: 86px;
+    display: grid;
+    grid-template-columns: auto 5px 100px;
+}
+
+#estd-top-row {
+    height: 54px;
+    padding: 0 135px;
+}
+
+#estd-top-row .three-line-divider {
+    float:right;
+}
+
+#estd-btm-row {
+    border-top: 2px solid rgb(87, 82, 79);
+    height: 30px;
+    line-height: 30px;
+    display: grid;
+    grid-template-columns: 155px 5px auto;
+}
+
+#estd {
+    text-align: center;
+    font-weight: 600;
+}
+
+#stripes {
+    background-image: linear-gradient(130deg, #dfd1af 25%, #ede4d3 25%, #ede4d3 50%, #dfd1af 50%, #dfd1af 75%, #ede4d3 75%, #ede4d3 100%);
+    background-size: 40.00px 47.67px;
+    background-repeat: repeat;
+    overflow: hidden;
+}
+
+#orange-stripe {
+    width: 18px;
+    background-color: rgb(247, 137, 81);
+    height: 100px;
+    float:right;
+    margin-top: -20px;
+    margin-right: 200px;
+    transform: rotate(41deg);
+
+}
+
+.three-line-divider {
+    border: 1px solid rgb(87, 82, 79);
+    border-top: none;
+    width: 3px;
+    border-bottom: none;
+    height: 100%;
+}
+
+.three-line-divider div {
+    border-left: 1px solid rgb(87, 82, 79);
+    height: 100%;
+    margin: 0 1px;
+}
+
+#cv-icon {
+    padding-top: 5px;
+}
+
+#cv-icon img {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#header-details-btm {
+    border-top: 2px solid rgb(87, 82, 79);
+    height: 68px;
+    display: grid;
+    grid-template-columns: 50px auto;
+}
+
+#ectp {
+    font-weight: 700;
+    font-size: 26px;
+    background-color: rgb(87, 82, 79);
+    height: 100%;
+    position: relative;
+}
+
+#ectp div {
+    position: absolute;
+    bottom: 18px;
+    right: -2px;
+    transform: rotate(-90deg);
+    color: rgb(223, 209, 175);
+}
+
+#ectp span {
+    vertical-align: 8px;
+    font-size: 14px;
+    color: rgb(247, 137, 81);
+}
+
+#slogan {
+    letter-spacing: 10px;
+    line-height: 68px;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 930px) {
+    #orange-stripe {
+        margin-right: 100px;
+    }
+
+    #slogan {
+        letter-spacing: 8px;
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    #orange-stripe {
+        margin-right: 50px;
+    }
+
+    #slogan {
+        letter-spacing: 6px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #slogan {
+        letter-spacing: 4px;
+        font-size: 17px;
+    }
+}
